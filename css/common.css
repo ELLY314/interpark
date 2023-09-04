@@ -1,0 +1,23 @@
+/* css 기본세팅 */
+*{
+    margin: 0; padding: 0; box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+a {
+    color: #000; text-decoration: none; text-align: center;
+}
+img{
+    vertical-align: middle; border: 0;
+}
+html{
+    font-size: 10px;
+}
+body{
+    font-family: 'Pretendard';
+}
+/* 공통클래스 */
+.inner{
+    width: 100%; max-width: 1320px; margin: 0 auto; padding: 0 20px;
+}
