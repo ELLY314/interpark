@@ -17,6 +17,15 @@ html{
 body{
     font-family: 'Pretendard';
 }
+input{
+    background-color: transparent; border: none;
+}
+input:focus{
+    outline: none;
+}
+button{
+    border: none; background-color: transparent; cursor: pointer;
+}
 /* 공통클래스 */
 .inner{
     width: 100%; max-width: 1320px; margin: 0 auto; padding: 0 20px;
