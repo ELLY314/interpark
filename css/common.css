@@ -15,7 +15,8 @@ html{
     font-size: 10px;
 }
 body{
-    font-family: 'Pretendard';
+    font-family: 'Pretendard'; font-size: 1.6rem; font-weight: 400;
+    height: 5000px;
 }
 input{
     background-color: transparent; border: none;
@@ -27,6 +28,50 @@ button{
     border: none; background-color: transparent; cursor: pointer;
 }
 /* 공통클래스 */
+section{
+    padding: 30px 0 60px;
+}
 .inner{
     width: 100%; max-width: 1320px; margin: 0 auto; padding: 0 20px;
+}
+.section-title{
+    text-align: center; margin-bottom: 20px;
+}
+.section-title h2{
+    font-size: 20px; margin-bottom: 2px; font-weight: 700;
+}
+.section-title p{
+    font-size: 15px; color: rgba(18, 18, 18, 0.5);
+}
+/* 슬라이드 */
+.slide-wrap{
+    position: relative;
+}
+.slide-tabs{
+    display: flex; justify-content: center; gap: 0 5px; margin-bottom: 20px;
+}
+.slide-tabs li a{
+    padding: 0 2rem; border: 1px solid rgba(0,0,0,.1); display: flex; align-items: center; height: 45px; border-radius: 30px; font-size: 14px;
+}
+.slide-tabs li.active a{
+    background-color: #000; color: #fff;
+}
+.sw-arrow{
+    position: absolute; top: 50%; transform: translateY(-50%); background: rgba(255, 255, 255, 0.9); border: 0.1rem solid rgba(0,0,0,.1); box-shadow: 0 0 0.8rem rgba(0,0,0,.13); border-radius: 50px; width: 50px; height: 50px; z-index: 11; display: flex; justify-content: center; align-items: center; cursor: pointer;
+}
+.sw-arrow::after{
+    content: ""; width: 10px; height: 18px; background: url(../img/arrow_slider.svg) no-repeat center / cover; position: absolute;
+}
+.sw-prev{left: -20px;}
+.sw-prev::after{transform: rotate(180deg);}
+.sw-next{right: -20px;}
+
+@media screen and (max-width: 1024px){
+    section{
+        padding: 30px 0 20px;
+    }
+    .sw-arrow{display: none;}
+}
+@media screen and (max-width: 768px){
+
 }

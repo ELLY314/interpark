@@ -1,0 +1,34 @@
+.todaypick{}
+.todaypick .section-title{
+    display: none;
+}
+.todaypick .sw-todaypick{}
+.todaypick .sw-todaypick ul{}
+.todaypick .sw-todaypick ul li{
+    border-radius: 25px; overflow: hidden;
+}
+.todaypick .sw-todaypick ul li a{}
+.todaypick .sw-todaypick ul li a img{
+    width: 100%; height: 100%; object-fit: cover;
+}
+.todaypick .sw-todaypick-pg{
+    text-align: center; display: none; margin-top: 10px;
+}
+.todaypick .sw-todaypick-pg .swiper-pagination-bullet-active{
+    background-color: #000;
+}
+
+@media screen and (max-width: 1024px){
+    .todaypick{
+        border-bottom: 8px solid #f0f4f4;
+    }
+    .todaypick .sw-todaypick-pg{
+        display: block;
+    }
+    .todaypick .section-title{
+        display: block;
+    }
+}
+@media screen and (max-width: 768px){
+
+}

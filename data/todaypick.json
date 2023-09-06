@@ -1,0 +1,7 @@
+{
+    "todaypick_count" : 4,
+    "todaypick_1" : {"name" : "배너1", "img" : "todaypick_1.jpg", "link" : "#"},
+    "todaypick_2" : {"name" : "배너1", "img" : "todaypick_2.png", "link" : "#"},
+    "todaypick_3" : {"name" : "배너1", "img" : "todaypick_3.jpg", "link" : "#"},
+    "todaypick_4" : {"name" : "배너1", "img" : "todaypick_4.png", "link" : "#"}
+}

@@ -14,6 +14,8 @@
     <!-- css/js 파일 -->
     <link rel="stylesheet" href="css/style.css">
     <script src="js/index.js"></script>
+    <script src="js/todaypick.js"></script>
+    <script src="js/shopping.js"></script>
 </head>
 <body>
     <header class="header">
@@ -33,7 +35,7 @@
                     <ul class="member-list">
                         <li><a href="#">로그인</a></li>
                         <li><a href="#">회원가입</a></li>
-                        <li>
+                        <li class="member-mypage">
                             <a href="#">마이페이지</a>
                             <ul class="mypage-list">
                                 <li><a href="#"><span>투어</span> 마이페이지</a></li>
@@ -43,20 +45,140 @@
                             </ul>
                         </li>
                     </ul>
+                    <button class="mo-btn-member"></button>
                 </div>
             </div>
             <div class="header-btm">
                 <ul class="header-menu">
-                    <li><a href="#"><img src="img/nav_icon_tour.png" alt="">투어</a></li>
-                    <li><a href="#"><img src="img/nav_icon_ticket.png" alt="">티켓</a></li>
-                    <li><a href="#"><img src="img/nav_icon_shopping.png" alt="">쇼핑</a></li>
-                    <li><a href="#"><img src="img/nav_icon_book.png" alt="">도서</a></li>
-                    <li><a href="#"><img src="img/nav_icon_triple.png" alt="">트리플</a></li>
-                    <li><a href="#"><img src="img/nav_icon_special.png" alt="">1등페스타 <i class="icon-hot"></i></a></li>
-                    <li><a href="#"><img src="img/nav_icon_nol.png" alt="">항공 즉시할인</a></li>
+                    <li>
+                        <a href="#">
+                            <div class="menu-icon">
+                                <img src="img/nav_icon_tour.png" alt="">
+                            </div>
+                            투어
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="menu-icon">
+                                <img src="img/nav_icon_ticket.png" alt="">
+                            </div>
+                            티켓
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="menu-icon">
+                                <img src="img/nav_icon_shopping.png" alt="">
+                            </div>
+                            쇼핑
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="menu-icon">
+                                <img src="img/nav_icon_book.png" alt="">
+                            </div>
+                            도서
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="menu-icon">
+                                <img src="img/nav_icon_triple.png" alt="">
+                            </div>
+                            트리플
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="menu-icon">
+                                <img src="img/nav_icon_special.png" alt="">
+                            </div>
+                            1등페스타
+                            <i class="icon-hot"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="menu-icon">
+                                <img src="img/nav_icon_nol.png" alt="">
+                            </div>
+                            항공 즉시할인
+                        </a>
+                    </li>
                 </ul>
             </div>
+            <form class="mo-header-search search">
+                <input type="text" class="search-text" maxlength="255" placeholder="검색어를 입력해주세요."/>
+                <button class="search-reset"></button>
+                <button class="search-bt"></button>
+            </form>
         </div>
     </header>
+    <section class="todaypick">
+        <div class="inner">
+            <div class="section-title">
+                <h2>오늘의 픽</h2>
+                <p>인터파크에서 할인혜택을 꼭 챙기세요.</p>
+            </div>
+            <div class="slide-wrap">
+                <div class="sw-arrow sw-prev"></div>
+                <div class="sw-arrow sw-next"></div>
+                <div class="swiper sw-todaypick">
+                    <ul class="swiper-wrapper">
+                        <!-- json -->
+                        <!-- <li class="swiper-slide">
+                            <a href="#">
+                                <img src="img/todaypick_1.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="#">
+                                <img src="img/todaypick_2.png" alt="">
+                            </a>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="#">
+                                <img src="img/todaypick_3.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="#">
+                                <img src="img/todaypick_4.png" alt="">
+                            </a>
+                        </li> -->
+                    </ul>
+                </div>
+                <div class="pagination sw-todaypick-pg"></div>
+            </div>
+        </div>
+    </section>
+    <section class="shopping">
+        <div class="inner">
+            <div class="section-title">
+                <h2>쇼핑 추천</h2>
+                <p>할인이 쎄다! 지금, 특가 상품을 확인하세요.</p>
+            </div>
+            <ul class="slide-tabs">
+                <!-- <li class="active"><a href="#">tab</a></li>
+                <li><a href="#">tab</a></li>
+                <li><a href="#">tab</a></li> -->
+            </ul>
+            <div class="slide-wrap">
+                <div class="sw-arrow sw-prev"></div>
+                <div class="sw-arrow sw-next"></div>
+                <div class="swiper sw-shopping">
+                    <ul class="swiper-wrapper">
+                        <li class="swiper-slide">
+                            <a href="#">
+
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
