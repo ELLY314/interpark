@@ -1,7 +1,156 @@
 {
-    "catename" : "쎈딜",
-    "list":[
-        {"link":"#", "img" : "img.jpg", "name":"", "ratio":20, "price":"19,900"}
+    "shopping": [
+        {
+            "catename": "쎈딜",
+            "list": [
+                {
+                    "link": "#",
+                    "img": "img/shopping_ssen_1.jpg",
+                    "ratio": 27,
+                    "price": "21,720",
+                    "alt": "쎈딜상품",
+                    "name": "[쿠폰최종가 21,720원] [현대백화점 판교점] 록시땅 [기프트] 핸드 크림 n 립 밤 듀오(택1)"
+                },
+                {
+                    "link": "#",
+                    "img": "img/shopping_ssen_2.jpg",
+                    "ratio": 20,
+                    "price": "4,300",
+                    "alt": "쎈딜상품",
+                    "name": "바르닭 최대 1+1+1+1 닭가슴살/볶음밥/소시지 외 94종 골라담기"
+                },
+                {
+                    "link": "#",
+                    "img": "img/shopping_ssen_3.jpg",
+                    "price": "338,000",
+                    "alt": "쎈딜상품",
+                    "name": "*9/8 오늘만 APP쿠폰가 295,000원 * 젖병소독기 유팡플러스 LED :시그니처[UP911] -공식인증판매처"
+                },
+                {
+                    "link": "#",
+                    "img": "img/shopping_ssen_4.jpg",
+                    "price": "18,700",
+                    "alt": "쎈딜상품",
+                    "name": "[9월 7일~9일 쿠폰할인] 좋은느낌 유기농순면 내추럴코어 울트라 슬림 중형 18매 x 4팩 + 중형 2매 X 2팩 외 생리대 모음"
+                },
+                {
+                    "link": "#",
+                    "img": "img/shopping_ssen_5.jpg",
+                    "ratio": 56,
+                    "price": "19,290",
+                    "alt": "쎈딜상품",
+                    "name": "디젤요소수 10L 2개"
+                },
+                {
+                    "link": "#",
+                    "img": "img/shopping_ssen_6.png",
+                    "ratio": 12,
+                    "price": "17,230",
+                    "alt": "쎈딜상품",
+                    "name": "디젤 요소수 첨가제 경고등 결정체 방지(SCR클리너) 125ml 21002"
+                },
+                {
+                    "link": "#",
+                    "img": "img/shopping_ssen_7.jpg",
+                    "ratio": 7,
+                    "price": "21,620",
+                    "alt": "쎈딜상품",
+                    "name": "★아이팝★ [Iprime]  [동원] 라이트 스탠다드 참치 85g / 고추 참치 85g / 리챔 200g 모음전"
+                },
+                {
+                    "link": "#",
+                    "img": "img/shopping_ssen_8.jpg",
+                    "ratio": 60,
+                    "price": "2,700",
+                    "alt": "쎈딜상품",
+                    "name": "[Iprime]  지리산 물하나 생수 2L x 6병 / 500ml x 20병"
+                },
+                {
+                    "link": "#",
+                    "img": "img/shopping_ssen_9.jpg",
+                    "ratio": 10,
+                    "price": "17,010",
+                    "alt": "쎈딜상품",
+                    "name": "[20%쿠폰] [아침이슬사과] 23년 유명산지 첫 수확 가을 빨간사과 홍로 3-7kg 실속 중대과"
+                },
+                {
+                    "link": "#",
+                    "img": "img/shopping_ssen_10.jpg",
+                    "ratio": 24,
+                    "price": "16,430",
+                    "alt": "쎈딜상품",
+                    "name": "빙그레 아카페라 커피 모음 (카페라떼/사이즈업/심플리 아메리카노/스페셜티 컵커피/올데이)"
+                },
+                {
+                    "link": "#",
+                    "img": "img/shopping_ssen_11.jpg",
+                    "ratio": 14,
+                    "price": "16,920",
+                    "alt": "쎈딜상품",
+                    "name": "[당도선별] 경북 샤인머스켓 2kg 에어포장"
+                }
+            ]
+        },
+        {
+            "catename": "베스트",
+            "list": [
+                {
+                    "link": "#",
+                    "img": "img/shopping_best_1.jpg",
+                    "ratio": 20,
+                    "price": "4,300",
+                    "alt": "베스트상품",
+                    "name": "바르닭 최대 1+1+1+1 닭가슴살/볶음밥/소시지 외 94종 골라담기"
+                },
+                {
+                    "link": "#",
+                    "img": "img/shopping_best_2.jpg",
+                    "ratio": 10,
+                    "price": "17,010",
+                    "alt": "베스트상품",
+                    "name": "[20%쿠폰] [아침이슬사과] 23년 유명산지 첫 수확 가을 빨간사과 홍로 3-7kg 실속 중대과"
+                },
+                {
+                    "link": "#",
+                    "img": "img/shopping_best_3.jpg",
+                    "price": "68,900",
+                    "alt": "베스트상품",
+                    "name": "팸퍼스 2023 베이비드라이 팬티 밴드 1박스 기저귀"
+                },
+                {
+                    "link": "#",
+                    "img": "img/shopping_best_4.jpg",
+                    "ratio": 4,
+                    "price": "9,410",
+                    "alt": "베스트상품",
+                    "name": "[20%쿠폰] [산지직송] 국내산 햇 양파 5kg / 특대 150g (2개사면 1kg 추가증정)"
+                },
+                {
+                    "link": "#",
+                    "img": "img/shopping_best_5.jpg",
+                    "price": "54,900",
+                    "alt": "베스트상품",
+                    "name": "팸퍼스 2023 통잠팬티 4팩 기저귀 밤기저귀"
+                },
+                {
+                    "link": "#",
+                    "img": "img/shopping_best_6.jpg",
+                    "ratio": 24,
+                    "price": "16,430",
+                    "alt": "베스트상품",
+                    "name": "빙그레 아카페라 커피 모음 (카페라떼/사이즈업/심플리 아메리카노/스페셜티 컵커피/올데이)"
+                },
+                {
+                    "link": "#",
+                    "img": "img/shopping_best_7.jpg",
+                    "ratio": 7,
+                    "price": "286,360",
+                    "alt": "베스트상품",
+                    "name": "[9월20일발송예정] 레노버 Xiaoxin Pad Pro 12.7 인치 패드/ 스냅 드래곤870 / 미개봉/관부가세포함"
+                }
+            ]
+        }
     ]
-    
+
+
 }

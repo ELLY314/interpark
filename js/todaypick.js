@@ -6,7 +6,7 @@ window.addEventListener("load", function(){
     xhttp.onreadystatechange = function (event) {
         const req = event.target;
         if (req.readyState === XMLHttpRequest.DONE) {
-            console.log(req.response);
+            // console.log(req.response);
             data = JSON.parse(req.response);
             todaypickSlide();
         }
