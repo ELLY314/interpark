@@ -1,0 +1,294 @@
+{
+    "tour":[
+        {
+            "catename" :"망설이면품절",
+            "list":[
+                {
+                    "link": "#",
+                    "img": "img/tour_soldout_1.webp",
+                    "point":"인기5성급",
+                    "promotion":"오사카 최다판매 호텔!",
+                    "title":"스위소텔 난카이 오사카 호텔",
+                    "price": "169,500",
+                    "alt": "망설이면품절상품"
+                },
+                {
+                    "link": "#",
+                    "img": "img/tour_soldout_2.jpg",
+                    "point":"연박예약특가",
+                    "promotion":"연박 시 조식 포함 특가 8% 추가 할인!",
+                    "title":"크라운 플라자 리조트 괌",
+                    "price": "298,800",
+                    "alt": "망설이면품절상품"
+                },
+                {
+                    "link": "#",
+                    "img": "img/tour_soldout_3.jpg",
+                    "point":"동남아인기호텔",
+                    "promotion":"연박특가 + 동반아동조식무료",
+                    "title":"뉴월드 푸꾸옥 리조트",
+                    "price": "314,900",
+                    "alt": "망설이면품절상품"
+                },
+                {
+                    "link": "#",
+                    "img": "img/tour_soldout_4.avif",
+                    "point":"인기해외호텔",
+                    "promotion":"2인 조식 포함 특가",
+                    "title":"샹그릴라 탄중아루 리조트 앤드 스파",
+                    "price": "231,200",
+                    "alt": "망설이면품절상품"
+                },
+                {
+                    "link": "#",
+                    "img": "img/tour_soldout_1.webp",
+                    "point":"인기5성급",
+                    "promotion":"오사카 최다판매 호텔!",
+                    "title":"스위소텔 난카이 오사카 호텔",
+                    "price": "169,500",
+                    "alt": "망설이면품절상품"
+                },
+                {
+                    "link": "#",
+                    "img": "img/tour_soldout_1.webp",
+                    "point":"인기5성급",
+                    "promotion":"오사카 최다판매 호텔!",
+                    "title":"스위소텔 난카이 오사카 호텔",
+                    "price": "169,500",
+                    "alt": "망설이면품절상품"
+                },
+                {
+                    "link": "#",
+                    "img": "img/tour_soldout_1.webp",
+                    "point":"인기5성급",
+                    "promotion":"오사카 최다판매 호텔!",
+                    "title":"스위소텔 난카이 오사카 호텔",
+                    "price": "169,500",
+                    "alt": "망설이면품절상품"
+                },
+                {
+                    "link": "#",
+                    "img": "img/tour_soldout_1.webp",
+                    "point":"인기5성급",
+                    "promotion":"오사카 최다판매 호텔!",
+                    "title":"스위소텔 난카이 오사카 호텔",
+                    "price": "169,500",
+                    "alt": "망설이면품절상품"
+                },
+                {
+                    "link": "#",
+                    "img": "img/tour_soldout_1.webp",
+                    "point":"인기5성급",
+                    "promotion":"오사카 최다판매 호텔!",
+                    "title":"스위소텔 난카이 오사카 호텔",
+                    "price": "169,500",
+                    "alt": "망설이면품절상품"
+                }
+            ]
+        },
+        {
+            "catename" :"패키지",
+            "list":[
+                {
+                    "link": "#",
+                    "img": "img/tour_soldout_2.jpg",
+                    "title":"스위소텔 난카이 오사카 호텔",
+                    "price": "169,500",
+                    "alt": "패키지상품"
+                },
+                {
+                    "link": "#",
+                    "img": "img/tour_soldout_1.webp",
+                    "title":"크라운 플라자 리조트 괌",
+                    "price": "298,800",
+                    "alt": "패키지상품"
+                },
+                {
+                    "link": "#",
+                    "img": "img/tour_soldout_3.jpg",
+                    "title":"뉴월드 푸꾸옥 리조트",
+                    "price": "314,900",
+                    "alt": "패키지상품"
+                },
+                {
+                    "link": "#",
+                    "img": "img/tour_soldout_4.avif",
+                    "title":"샹그릴라 탄중아루 리조트 앤드 스파",
+                    "price": "231,200",
+                    "alt": "패키지상품"
+                },
+                {
+                    "link": "#",
+                    "img": "img/tour_soldout_1.webp",
+                    "title":"스위소텔 난카이 오사카 호텔",
+                    "price": "169,500",
+                    "alt": "패키지상품"
+                },
+                {
+                    "link": "#",
+                    "img": "img/tour_soldout_1.webp",
+                    "title":"스위소텔 난카이 오사카 호텔",
+                    "price": "169,500",
+                    "alt": "패키지상품"
+                },
+                {
+                    "link": "#",
+                    "img": "img/tour_soldout_1.webp",
+                    "title":"스위소텔 난카이 오사카 호텔",
+                    "price": "169,500",
+                    "alt": "패키지상품"
+                },
+                {
+                    "link": "#",
+                    "img": "img/tour_soldout_1.webp",
+                    "title":"스위소텔 난카이 오사카 호텔",
+                    "price": "169,500",
+                    "alt": "패키지상품"
+                },
+                {
+                    "link": "#",
+                    "img": "img/tour_soldout_1.webp",
+                    "title":"스위소텔 난카이 오사카 호텔",
+                    "price": "169,500",
+                    "alt": "패키지상품"
+                }
+            ]
+        },
+        {
+            "catename" :"국내숙소",
+            "list":[
+                {
+                    "link": "#",
+                    "img": "img/tour_soldout_2.jpg",
+                    "title":"스위소텔 난카이 오사카 호텔",
+                    "price": "169,500",
+                    "alt": "패키지상품"
+                },
+                {
+                    "link": "#",
+                    "img": "img/tour_soldout_1.webp",
+                    "title":"크라운 플라자 리조트 괌",
+                    "price": "298,800",
+                    "alt": "패키지상품"
+                },
+                {
+                    "link": "#",
+                    "img": "img/tour_soldout_3.jpg",
+                    "title":"뉴월드 푸꾸옥 리조트",
+                    "price": "314,900",
+                    "alt": "패키지상품"
+                },
+                {
+                    "link": "#",
+                    "img": "img/tour_soldout_4.avif",
+                    "title":"샹그릴라 탄중아루 리조트 앤드 스파",
+                    "price": "231,200",
+                    "alt": "패키지상품"
+                },
+                {
+                    "link": "#",
+                    "img": "img/tour_soldout_1.webp",
+                    "title":"스위소텔 난카이 오사카 호텔",
+                    "price": "169,500",
+                    "alt": "패키지상품"
+                },
+                {
+                    "link": "#",
+                    "img": "img/tour_soldout_1.webp",
+                    "title":"스위소텔 난카이 오사카 호텔",
+                    "price": "169,500",
+                    "alt": "패키지상품"
+                },
+                {
+                    "link": "#",
+                    "img": "img/tour_soldout_1.webp",
+                    "title":"스위소텔 난카이 오사카 호텔",
+                    "price": "169,500",
+                    "alt": "패키지상품"
+                },
+                {
+                    "link": "#",
+                    "img": "img/tour_soldout_1.webp",
+                    "title":"스위소텔 난카이 오사카 호텔",
+                    "price": "169,500",
+                    "alt": "패키지상품"
+                },
+                {
+                    "link": "#",
+                    "img": "img/tour_soldout_1.webp",
+                    "title":"스위소텔 난카이 오사카 호텔",
+                    "price": "169,500",
+                    "alt": "패키지상품"
+                }
+            ]
+        },
+        {
+            "catename" :"해외숙소",
+            "list":[
+                {
+                    "link": "#",
+                    "img": "img/tour_soldout_2.jpg",
+                    "title":"스위소텔 난카이 오사카 호텔",
+                    "price": "169,500",
+                    "alt": "패키지상품"
+                },
+                {
+                    "link": "#",
+                    "img": "img/tour_soldout_1.webp",
+                    "title":"크라운 플라자 리조트 괌",
+                    "price": "298,800",
+                    "alt": "패키지상품"
+                },
+                {
+                    "link": "#",
+                    "img": "img/tour_soldout_3.jpg",
+                    "title":"뉴월드 푸꾸옥 리조트",
+                    "price": "314,900",
+                    "alt": "패키지상품"
+                },
+                {
+                    "link": "#",
+                    "img": "img/tour_soldout_4.avif",
+                    "title":"샹그릴라 탄중아루 리조트 앤드 스파",
+                    "price": "231,200",
+                    "alt": "패키지상품"
+                },
+                {
+                    "link": "#",
+                    "img": "img/tour_soldout_1.webp",
+                    "title":"스위소텔 난카이 오사카 호텔",
+                    "price": "169,500",
+                    "alt": "패키지상품"
+                },
+                {
+                    "link": "#",
+                    "img": "img/tour_soldout_1.webp",
+                    "title":"스위소텔 난카이 오사카 호텔",
+                    "price": "169,500",
+                    "alt": "패키지상품"
+                },
+                {
+                    "link": "#",
+                    "img": "img/tour_soldout_1.webp",
+                    "title":"스위소텔 난카이 오사카 호텔",
+                    "price": "169,500",
+                    "alt": "패키지상품"
+                },
+                {
+                    "link": "#",
+                    "img": "img/tour_soldout_1.webp",
+                    "title":"스위소텔 난카이 오사카 호텔",
+                    "price": "169,500",
+                    "alt": "패키지상품"
+                },
+                {
+                    "link": "#",
+                    "img": "img/tour_soldout_1.webp",
+                    "title":"스위소텔 난카이 오사카 호텔",
+                    "price": "169,500",
+                    "alt": "패키지상품"
+                }
+            ]
+        }
+    ]
+}

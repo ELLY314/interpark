@@ -149,8 +149,190 @@
                     "name": "[9월20일발송예정] 레노버 Xiaoxin Pad Pro 12.7 인치 패드/ 스냅 드래곤870 / 미개봉/관부가세포함"
                 }
             ]
+        },
+        {
+            "catename": "인싸위크",
+            "list": [
+                {
+                    "link": "#",
+                    "img": "img/shopping_interweek_1.jpg",
+                    "ratio": 62,
+                    "price": "2,600",
+                    "alt": "인싸위크상품",
+                    "name": "[Iprime]  지리산 물하나 생수 2L x 6병 / 500ml x 20병"
+                },
+                {
+                    "link": "#",
+                    "img": "img/shopping_interweek_2.jpg",
+                    "ratio": 51,
+                    "price": "12,900",
+                    "alt": "인싸위크상품",
+                    "name": ""
+                },
+                {
+                    "link": "#",
+                    "img": "img/shopping_interweek_3.jpg",
+                    "ratio": 20,
+                    "price": "15,500",
+                    "alt": "인싸위크상품",
+                    "name": "[9/11 원데이 인앱특가+APP 선착순쿠폰] 아모스 04 스타일 컬링 2X 에센스 150ml 1+1"
+                },
+                {
+                    "link": "#",
+                    "img": "img/shopping_interweek_4.jpg",
+                    "ratio": 27,
+                    "price": "2,600",
+                    "alt": "인싸위크상품",
+                    "name": "[Iprime] [인앱특가 최종2,400원] 아이팝 무라벨 먹는샘물 생수 500ml 2L 선택구매 / 하이트진로"
+                },
+                {
+                    "link": "#",
+                    "img": "img/shopping_interweek_5.jpg",
+                    "ratio": 41,
+                    "price": "11,500",
+                    "alt": "인싸위크상품",
+                    "name": "[9/11 쇼핑앱 9900원] [I*POP 단독기획] 23년 추석 선물 세트 엘지 생활건강 월드트레블에디션 IP호"
+                },
+                {
+                    "link": "#",
+                    "img": "img/shopping_interweek_6.jpg",
+                    "ratio": 20,
+                    "price": "1,399,100",
+                    "alt": "인싸위크상품",
+                    "name": "LG그램 2023 신제품 16ZD90RU-GX56K 인텔 13세대 i5 16인치 노트북 추천"
+                },
+                {
+                    "link": "#",
+                    "img": "img/shopping_interweek_7.jpg",
+                    "ratio": 4,
+                    "price": "32,070",
+                    "alt": "인싸위크상품",
+                    "name": "[루솔] 프리미엄 이유식 1단계(미음) ~ 5단계(반찬) 15팩/20팩/30팩 골고루"
+                },
+                {
+                    "link": "#",
+                    "img": "img/shopping_interweek_8.jpg",
+                    "ratio": 5,
+                    "price": "209,000",
+                    "alt": "인싸위크상품",
+                    "name": "[인생주간/본사정품] 파인캐디 UPL300 레이저 골프거리측정기 0.1초 측정 스마트 진동알림 손떨림방지"
+                },
+                {
+                    "link": "#",
+                    "img": "img/shopping_interweek_9.jpg",
+                    "ratio": 13,
+                    "price": "64,390",
+                    "alt": "인싸위크상품",
+                    "name": "추석맞이 할인 대방출/타이틀리스트 NEW PRO V1 골프공(3피스) 1더즌 12구 골프볼 2023년/당일출고"
+                },
+                {
+                    "link": "#",
+                    "img": "img/shopping_interweek_10.jpg",
+                    "ratio": 18,
+                    "price": "2,325,750",
+                    "alt": "인싸위크상품",
+                    "name": "[최종220만]삼성전자 갤럭시북3 프로360 NT960QFG-K71A 16인치 2in1 S펜 대학생선물"
+                },
+                {
+                    "link": "#",
+                    "img": "img/shopping_interweek_11.jpg",
+                    "ratio": 51,
+                    "price": "977,500",
+                    "alt": "인싸위크상품",
+                    "name": "[LG공식인증점] LG UHD TV 65UR642S0NC 163cm 울트라HD"
+                }
+                
+            ]
+        },
+        {
+            "catename": "CJ제일제당",
+            "list": [
+                {
+                    "link": "#",
+                    "img": "img/shopping_cj_1.jpg",
+                    "ratio": 21,
+                    "price": "26,900",
+                    "alt": "CJ제일제당상품",
+                    "name": "[2023추석선물세트][CJ제일제당] 스팸12호"
+                },
+                {
+                    "link": "#",
+                    "img": "img/shopping_cj_2.jpg",
+                    "ratio": 22,
+                    "price": "28,700",
+                    "alt": "CJ제일제당상품",
+                    "name": "[Iprime]  CJ제일제당 햇반/현미쌀밥/잡곡밥 210g x 36개"
+                },
+                {
+                    "link": "#",
+                    "img": "img/shopping_cj_3.jpg",
+                    "ratio": 31,
+                    "price": "23,900",
+                    "alt": "CJ제일제당상품",
+                    "name": "[Iprime]  CJ제일제당 스팸 클래식/라이트 200g x 10개"
+                },
+                {
+                    "link": "#",
+                    "img": "img/shopping_cj_4.jpg",
+                    "ratio": 20,
+                    "price": "14,080",
+                    "alt": "CJ제일제당상품",
+                    "name": "CJ제일제당 비비고 국/탕/찌개 20종 골라담기 (미역국/육개장/감자탕)"
+                },
+                {
+                    "link": "#",
+                    "img": "img/shopping_cj_5.jpg",
+                    "ratio": 12,
+                    "price": "23,320",
+                    "alt": "CJ제일제당상품",
+                    "name": "CJ제일제당 비비고 왕교자 만두 1.05kg*3 외 13종 골라담기, 본사직배송"
+                },
+                {
+                    "link": "#",
+                    "img": "img/shopping_cj_6.jpg",
+                    "ratio": 14,
+                    "price": "13,180",
+                    "alt": "CJ제일제당상품",
+                    "name": "[명절 상차림 필수품] 비비고 동그랑땡/완자/떡갈비/잡채"
+                },
+                {
+                    "link": "#",
+                    "img": "img/shopping_cj_7.jpg",
+                    "ratio": 19,
+                    "price": "35,230",
+                    "alt": "CJ제일제당상품",
+                    "name": "[2023추석선물세트][CJ제일제당] 특별한선택 Y호"
+                },
+                {
+                    "link": "#",
+                    "img": "img/shopping_cj_8.jpg",
+                    "ratio": 20,
+                    "price": "19,360",
+                    "alt": "CJ제일제당상품",
+                    "name": "[2023추석선물세트][CJ제일제당] 스팸고급유7호"
+                },
+                {
+                    "link": "#",
+                    "img": "img/shopping_cj_9.jpg",
+                    "ratio": 19,
+                    "price": "29,910",
+                    "alt": "CJ제일제당상품",
+                    "name": "[2023추석선물세트][CJ제일제당] 스팸마일드8호"
+                },
+                {
+                    "link": "#",
+                    "img": "img/shopping_cj_10.jpg",
+                    "ratio": 25,
+                    "price": "31,900",
+                    "alt": "CJ제일제당상품",
+                    "name": "[Iprime]  CJ제일제당 스팸 클래식/라이트 340g x 10개"
+                }
+            ]
+        },
+        {
+            "catename": "소담상회"
         }
+        
     ]
-
 
 }

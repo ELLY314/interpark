@@ -1,9 +1,7 @@
 .shopping{}
 .shopping .slide-tabs{}
 .shopping .slide-tabs li{}
-.shopping .slide-tabs li a{
-    
-}
+.shopping .slide-tabs li a{}
 .shopping .slide-tabs li.active{}
 .sw-shopping{}
 .sw-shopping ul{}
@@ -20,6 +18,25 @@
 .sw-shopping ul li .textbox{
     padding: 20px;
 }
-.sw-shopping ul li .textbox h2{}
-.sw-shopping ul li .textbox h2 span{}
-.sw-shopping ul li .textbox p{}
+.sw-shopping ul li .textbox h2{
+    margin-bottom: 6px; font-size: 18px; font-weight: 400;
+}
+.sw-shopping ul li .textbox h2 span{
+    font-size: 20px; display: inline-block; font-weight: 700;
+}
+.sw-shopping ul li .textbox h2 span.ratio{margin-right: 2px; color: red;}
+.sw-shopping ul li .textbox p{
+    text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; min-height: 36px; font-size: 15px;
+}
+@media screen and (max-width: 1024px){}
+@media screen and (max-width: 768px){
+    .sw-shopping ul li .textbox{
+        padding: 12px;
+    }
+    .sw-shopping ul li .textbox h2{
+        font-size: 13px;
+    }
+    .sw-shopping ul li .textbox h2 span{
+        font-size: 15px;
+    }
+}
