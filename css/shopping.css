@@ -10,10 +10,10 @@
     border-radius: 15px; border: 1px solid rgba(0, 0, 0, 0.06); 
 }
 .sw-shopping ul li .imgbox{
-    background: rgba(0, 0, 0, 0.03); position: relative; padding-bottom: 100%; width: 100%; 
+    background: rgba(0, 0, 0, 0.03); padding-bottom: 100%; 
 }
 .sw-shopping ul li .imgbox img{
-    width: 100%; height: 100%; position: absolute; top: 0; left: 0; mix-blend-mode: multiply;
+    mix-blend-mode: multiply;
 }
 .sw-shopping ul li .textbox{
     padding: 20px;

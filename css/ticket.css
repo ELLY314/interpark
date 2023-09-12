@@ -1,0 +1,36 @@
+.ticket{}
+.ticket .sw-arrow{top: 40%;}
+.ticket .slide-wrap{display: none;}
+.ticket .slide-wrap.active{display: block;}
+.sw-ticket{}
+.sw-ticket li{}
+.sw-ticket li a{}
+.sw-ticket li .imgbox{
+    padding-bottom: 135%; border-radius: 12px; overflow: hidden;
+}
+.sw-ticket li .imgbox img{}
+.sw-ticket li .imgbox span{
+    position: absolute; bottom: 14px; left: 22px; font-size: 70px; color: #fff; z-index: 11; font-weight: 700;
+}
+.sw-ticket li .textbox{
+    padding: 16px 8px;
+}
+.sw-ticket li .textbox h2{
+    font-size: 18px; font-weight: 700; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+.sw-ticket li .textbox h3{
+    font-size: 15px; color: #666; margin: 7px 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+.sw-ticket li .textbox p{
+    font-size: 14px; color: #999;
+}
+.sw-ticket li .textbox span{
+    padding: 0 8px; font-size: 11px; color: #4a95ff; border: 1px solid #4a95ff; display: inline-block; margin-top: 7px; line-height: 24px;
+}
+
+@media screen and (max-width: 1024px){}
+@media screen and (max-width: 768px){
+    .sw-ticket li .textbox h2{font-size: 15px; font-weight: 400;}
+    .sw-ticket li .textbox h3{font-size: 13px; font-weight: 400;}
+    .sw-ticket li .textbox p{font-size: 10px;}
+}

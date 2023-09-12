@@ -9,7 +9,7 @@
 }
 .todaypick .sw-todaypick ul li a{}
 .todaypick .sw-todaypick ul li a img{
-    width: 100%; height: 100%; object-fit: cover;
+    position: relative; width: 100%; height: 100%; object-fit: cover;
 }
 .todaypick .sw-todaypick-pg{
     text-align: center; display: none; margin-top: 10px;

@@ -16,7 +16,7 @@ html{
 }
 body{
     font-family: 'Pretendard'; font-size: 1.6rem; font-weight: 400;
-    height: 5000px;
+    height: 3000px;
 }
 input{
     background-color: transparent; border: none;
@@ -32,7 +32,7 @@ section{
     padding: 30px 0 60px;
 }
 .inner{
-    width: 100%; max-width: 1320px; margin: 0 auto; padding: 0 20px;
+    width: 100%; max-width: 1340px; margin: 0 auto; padding: 0 30px;
 }
 .section-title{
     text-align: center; margin-bottom: 20px;
@@ -53,7 +53,7 @@ section{
 .slide-tabs li.active a{
     background-color: #000; color: #fff;
 }
-/*  */
+/* 슬라이드영역 */
 .slide-wrap{
     position: relative; margin-bottom: 20px; height: auto;
 }
@@ -62,6 +62,12 @@ section{
 }
 .slide-wrap ul li a{
     display: block; overflow: hidden;
+}
+.slide-wrap ul li .imgbox{
+    position: relative; width: 100%; 
+}
+.slide-wrap ul li .imgbox img{
+    width: 100%; height: 100%; position: absolute; top: 0; left: 0;  object-fit: cover;
 }
 .slide-wrap ul li.slide-more{
     justify-content: center; align-items: center; text-align: center; display: flex;
@@ -75,6 +81,7 @@ section{
 .slide-wrap ul li.slide-more img{
     position: relative; width: 50px; height: 50px;
 }
+/* slide 화살표 */
 .sw-arrow{
     position: absolute; top: 50%; transform: translateY(-50%); background: rgba(255, 255, 255, 0.9); border: 0.1rem solid rgba(0,0,0,.1); box-shadow: 0 0 0.8rem rgba(0,0,0,.13); border-radius: 50px; width: 50px; height: 50px; z-index: 11; display: flex; justify-content: center; align-items: center; cursor: pointer;
 }
@@ -122,5 +129,15 @@ section{
     body{
         font-size: 1.3rem;
     }
+    .inner{
+        padding: 0 15px;
+    }
+    .slide-tabs{
+        margin-bottom: 15px;
+    }
     .sw-arrow{display: none;}
+    .section-bottom-btn a{
+        width: 100%; justify-content: center; border-radius: 4px; height: 50px;
+    }
+
 }

@@ -49,7 +49,7 @@ window.addEventListener("load", function(){
         }
         tourSwiper = new Swiper(".sw-tour", {
             spaceBetween: 10,
-            slidesPerView: 1.3,
+            slidesPerView: 1.5,
             grid:{
                 rows:2,
                 fill:'row',
@@ -59,10 +59,10 @@ window.addEventListener("load", function(){
                 prevEl: ".tour .sw-prev",
             },
             breakpoints: {
-                768: {
-                    slidesPerView: 2,
+                480: {
+                    slidesPerView: 2.3,
                     slidesPerGroup:2,
-                    spaceBetween: 25,
+                    spaceBetween: 15,
                     grid: {
                         rows: 1,
                     },
