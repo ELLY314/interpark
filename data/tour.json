@@ -41,47 +41,47 @@
                 },
                 {
                     "link": "#",
-                    "img": "img/tour_soldout_1.webp",
+                    "img": "img/tour_soldout_5.jpg",
+                    "point":"국내여행",
+                    "promotion":"Cabin S 특가상품",
+                    "title":"아난티 앳 강남",
+                    "price": "450,000",
+                    "alt": "망설이면품절상품"
+                },
+                {
+                    "link": "#",
+                    "img": "img/tour_soldout_6.jpg",
+                    "point":"해외패키지",
+                    "promotion":"사우디아라비아 전문인솔자 동행",
+                    "title":"[노쇼핑/노옵션] 사우디아라비아 & 요르단 문화탐방 8일",
+                    "price": "3,890,000",
+                    "alt": "망설이면품절상품"
+                },
+                {
+                    "link": "#",
+                    "img": "img/tour_soldout_7.jpg",
+                    "point":"국내여행",
+                    "promotion":"[리뷰이벤트PKG] 디럭스트윈-시티뷰 + 리뷰작성시 레이트체크아웃 13시",
+                    "title":"SL호텔 강릉",
+                    "price": "108,000",
+                    "alt": "망설이면품절상품"
+                },
+                {
+                    "link": "#",
+                    "img": "img/tour_soldout_8.jpg",
                     "point":"인기5성급",
-                    "promotion":"오사카 최다판매 호텔!",
-                    "title":"스위소텔 난카이 오사카 호텔",
-                    "price": "169,500",
+                    "promotion":"홈쇼핑 메가히트상품 !",
+                    "title":"[CJ온스타일 방영] 노팁/노쇼핑/월드체인 힐튼호텔 청도 3일",
+                    "price": "249,000",
                     "alt": "망설이면품절상품"
                 },
                 {
                     "link": "#",
                     "img": "img/tour_soldout_1.webp",
-                    "point":"인기5성급",
-                    "promotion":"오사카 최다판매 호텔!",
-                    "title":"스위소텔 난카이 오사카 호텔",
-                    "price": "169,500",
-                    "alt": "망설이면품절상품"
-                },
-                {
-                    "link": "#",
-                    "img": "img/tour_soldout_1.webp",
-                    "point":"인기5성급",
-                    "promotion":"오사카 최다판매 호텔!",
-                    "title":"스위소텔 난카이 오사카 호텔",
-                    "price": "169,500",
-                    "alt": "망설이면품절상품"
-                },
-                {
-                    "link": "#",
-                    "img": "img/tour_soldout_1.webp",
-                    "point":"인기5성급",
-                    "promotion":"오사카 최다판매 호텔!",
-                    "title":"스위소텔 난카이 오사카 호텔",
-                    "price": "169,500",
-                    "alt": "망설이면품절상품"
-                },
-                {
-                    "link": "#",
-                    "img": "img/tour_soldout_1.webp",
-                    "point":"인기5성급",
-                    "promotion":"오사카 최다판매 호텔!",
-                    "title":"스위소텔 난카이 오사카 호텔",
-                    "price": "169,500",
+                    "point":"인기상품",
+                    "promotion":"제주도 가족여행 추천패키지!",
+                    "title":"[제주도]에어텔 3일,대한항공탑승,서귀포KAL호텔 2박",
+                    "price": "233,400",
                     "alt": "망설이면품절상품"
                 }
             ]

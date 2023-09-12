@@ -43,12 +43,9 @@ section{
 .section-title p{
     font-size: 18px; color: rgba(18, 18, 18, 0.5);
 }
-/* 슬라이드 */
-.slide-wrap{
-    position: relative;
-}
+/* 슬라이드 탭 */
 .slide-tabs{
-    display: flex; justify-content: center; gap: 0 5px; margin-bottom: 20px;
+    display: flex; justify-content: center; gap: 5px; margin-bottom: 20px; flex-wrap: wrap;
 }
 .slide-tabs li a{
     padding: 0 2rem; border: 1px solid rgba(0,0,0,.1); display: flex; align-items: center; height: 45px; border-radius: 30px; font-size: 14px;
@@ -56,17 +53,66 @@ section{
 .slide-tabs li.active a{
     background-color: #000; color: #fff;
 }
+/*  */
+.slide-wrap{
+    position: relative; margin-bottom: 20px; height: auto;
+}
+.slide-wrap ul li{
+    height: auto;
+}
+.slide-wrap ul li a{
+    display: block; overflow: hidden;
+}
+.slide-wrap ul li.slide-more{
+    justify-content: center; align-items: center; text-align: center; display: flex;
+}
+.slide-wrap ul li.slide-more span{
+    display: block; margin-top: 10px;
+}
+.slide-wrap ul li.slide-more a{
+    border: none; border-radius: 0; 
+}
+.slide-wrap ul li.slide-more img{
+    position: relative; width: 50px; height: 50px;
+}
 .sw-arrow{
     position: absolute; top: 50%; transform: translateY(-50%); background: rgba(255, 255, 255, 0.9); border: 0.1rem solid rgba(0,0,0,.1); box-shadow: 0 0 0.8rem rgba(0,0,0,.13); border-radius: 50px; width: 50px; height: 50px; z-index: 11; display: flex; justify-content: center; align-items: center; cursor: pointer;
 }
 .sw-arrow::after{
     content: ""; width: 10px; height: 18px; background: url(../img/arrow_slider.svg) no-repeat center / cover; position: absolute;
 }
-.sw-prev{left: -20px;}
+.sw-prev{left: -25px;}
 .sw-prev::after{transform: rotate(180deg);}
-.sw-next{right: -20px;}
+.sw-next{right: -25px;}
 .swiper-button-disabled{display: none;}
+.section-bottom-btn{
+    text-align: center;
+}
+.section-bottom-btn a{
+    border: 1px solid rgba(0,0,0,0.1); border-radius: 35px; padding: 0 40px; height: 55px; display: inline-flex; align-items: center; font-weight: 700;
+}
+.section-bottom-btn a i{
+    content: "";
+    margin-left: 3px;
+    display: inline-block;
+    width: 11px;
+    height: 7px;
+    background: url(../img/arrow_down.svg) no-repeat center;
+    transform: rotate(-90deg);
+}
 @media screen and (max-width: 1024px){
+    .section-title{
+        margin-bottom: 12px;
+    }
+    .section-title h2{
+        font-size: 20px;
+    }
+    .section-title p{
+        font-size: 15px;
+    }
+    .slide-tabs li a{
+        height: 34px; padding: 0 14px;
+    }
     section{
         padding: 30px 0 20px;
     }

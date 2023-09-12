@@ -20,7 +20,7 @@
     color: #1769ff;
 }
 .sw-tour li a .textbox .title{
-    margin: 4px 0;
+    margin: 4px 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
 }
 .sw-tour li a .textbox .price{
     

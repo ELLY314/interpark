@@ -7,7 +7,7 @@
 .sw-shopping ul{}
 .sw-shopping ul li{}
 .sw-shopping ul li a{
-    border-radius: 15px; border: 1px solid rgba(0, 0, 0, 0.06); display: block; 
+    border-radius: 15px; border: 1px solid rgba(0, 0, 0, 0.06); 
 }
 .sw-shopping ul li .imgbox{
     background: rgba(0, 0, 0, 0.03); position: relative; padding-bottom: 100%; width: 100%; 
@@ -30,13 +30,19 @@
 }
 @media screen and (max-width: 1024px){}
 @media screen and (max-width: 768px){
+    .sw-shopping ul li{
+        
+    }
     .sw-shopping ul li .textbox{
-        padding: 12px;
+        padding: 10px;
     }
     .sw-shopping ul li .textbox h2{
-        font-size: 13px;
+        font-size: 11px;
     }
     .sw-shopping ul li .textbox h2 span{
-        font-size: 15px;
+        font-size: 12px;
+    }
+    .sw-shopping ul li .textbox p{
+        font-size: 13px; min-height: 30px;        
     }
 }

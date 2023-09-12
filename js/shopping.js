@@ -56,14 +56,23 @@ window.addEventListener("load", function(){
             `
             swShoppingHtml += html;
         }
+        let lastHtml = `
+            <li class="swiper-slide slide-more">
+                <a href="#">
+                    <img src="../img/arrow_more.svg" alt="더보기 화살표">
+                    <span>전체보기</span>
+                </a>
+            </li>
+        `
         let swShoppingWrap = document.querySelector(".sw-shopping .swiper-wrapper");
-        swShoppingWrap.innerHTML = swShoppingHtml;
+        swShoppingWrap.innerHTML = swShoppingHtml + lastHtml;
         if(shoppingSwiper){
             shoppingSwiper.destroy();
         }
         shoppingSwiper = new Swiper(".sw-shopping", {
             spaceBetween: 10,
-            slidesPerView: 4,
+            slidesPerView: 2.3,
+            // autoHeight : true,
             grid:{
                 rows:2,
                 fill:'row',
@@ -77,11 +86,17 @@ window.addEventListener("load", function(){
                     slidesPerView: 3,
                     slidesPerGroup:3,
                     spaceBetween: 30,
+                    grid: {
+                        rows: 1,
+                    },
                 },
                 1024: {
                     slidesPerView: 4,
                     slidesPerGroup:4,
                     spaceBetween: 25,
+                    grid: {
+                        rows: 1,
+                    },
                 },
             },
         });

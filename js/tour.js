@@ -48,6 +48,12 @@ window.addEventListener("load", function(){
             tourSwiper.destroy();
         }
         tourSwiper = new Swiper(".sw-tour", {
+            spaceBetween: 10,
+            slidesPerView: 1.3,
+            grid:{
+                rows:2,
+                fill:'row',
+            },
             navigation: {
                 nextEl: ".tour .sw-next",
                 prevEl: ".tour .sw-prev",
@@ -57,11 +63,17 @@ window.addEventListener("load", function(){
                     slidesPerView: 2,
                     slidesPerGroup:2,
                     spaceBetween: 25,
+                    grid: {
+                        rows: 1,
+                    },
                 },
                 1024: {
                     slidesPerView: 3,
                     slidesPerGroup:3,
                     spaceBetween: 25,
+                    grid: {
+                        rows: 1,
+                    },
                 },
             },
         });
