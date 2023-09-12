@@ -72,7 +72,6 @@ window.addEventListener("load", function(){
         shoppingSwiper = new Swiper(".sw-shopping", {
             spaceBetween: 10,
             slidesPerView: 2.3,
-            // autoHeight : true,
             grid:{
                 rows:2,
                 fill:'row',
@@ -82,7 +81,7 @@ window.addEventListener("load", function(){
                 prevEl: ".shopping .sw-prev",
             },
             breakpoints: {
-                760: {
+                768: {
                     slidesPerView: 3,
                     slidesPerGroup:3,
                     spaceBetween: 30,

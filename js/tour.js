@@ -59,7 +59,7 @@ window.addEventListener("load", function(){
                 prevEl: ".tour .sw-prev",
             },
             breakpoints: {
-                760: {
+                768: {
                     slidesPerView: 2,
                     slidesPerGroup:2,
                     spaceBetween: 25,
