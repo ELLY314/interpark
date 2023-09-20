@@ -1,0 +1,100 @@
+{
+    "live_count": 8,
+    "live_1": {
+        "link": "#",
+        "img": "live_1.jpg",
+        "alt": "라이브",
+        "cate": "방송예정",
+        "title": "소담상회 x CARPET",
+        "date": "09월 20일 (수)",
+        "time": "16:00",
+        "thumbImg": "live_1_thumb.jpg",
+        "thumbAlt": "라이브썸네일",
+        "thumbTitle": "안전벨트 2개( 안전벨트 1개 색상-랜덤) + 동결건조 간식 1봉",
+        "thumbRatio": 26,
+        "thumbPrice": "35,000"
+    },
+    "live_2": {
+        "link": "#",
+        "img": "live_2.jpg",
+        "alt": "라이브",
+        "cate": "방송예정",
+        "title": "노보텔 스위트 & 노보텔 앰배서더 서울 용산",
+        "date": "09월 21일 (목)",
+        "time": "19:00"
+    },
+    "live_3": {
+        "link": "#",
+        "img": "live_3.jpg",
+        "alt": "라이브",
+        "cate": "VOD",
+        "title": "[한화세일페스타] 전지점 최대 91% 라이브 특가",
+        "date": "09월 20일 (수)",
+        "time": "16:00",
+        "thumbImg": "live_3_thumb.png",
+        "thumbAlt": "라이브썸네일",
+        "thumbTitle": "한화세일페스타 기획전",
+        "thumbRatio": "",
+        "thumbPrice": ""
+    },
+    "live_4": {
+        "link": "#",
+        "img": "live_1.jpg",
+        "alt": "라이브",
+        "cate": "방송예정",
+        "title": "소담상회 x CARPET",
+        "date": "09월 20일 (수)",
+        "time": "16:00",
+        "thumbImg": "live_1_thumb.jpg",
+        "thumbAlt": "라이브썸네일",
+        "thumbTitle": "안전벨트 2개( 안전벨트 1개 색상-랜덤) + 동결건조 간식 1봉",
+        "thumbRatio": 26,
+        "thumbPrice": "35,000"
+    },
+    "live_5": {
+        "link": "#",
+        "img": "live_2.jpg",
+        "alt": "라이브",
+        "cate": "방송예정",
+        "title": "노보텔 스위트 & 노보텔 앰배서더 서울 용산",
+        "date": "09월 21일 (목)",
+        "time": "19:00"
+    },
+    "live_6": {
+        "link": "#",
+        "img": "live_3.jpg",
+        "alt": "라이브",
+        "cate": "VOD",
+        "title": "[한화세일페스타] 전지점 최대 91% 라이브 특가",
+        "date": "09월 20일 (수)",
+        "time": "16:00",
+        "thumbImg": "live_3_thumb.png",
+        "thumbAlt": "라이브썸네일",
+        "thumbTitle": "한화세일페스타 기획전",
+        "thumbRatio": "",
+        "thumbPrice": ""
+    },
+    "live_7": {
+        "link": "#",
+        "img": "live_2.jpg",
+        "alt": "라이브",
+        "cate": "방송예정",
+        "title": "노보텔 스위트 & 노보텔 앰배서더 서울 용산",
+        "date": "09월 21일 (목)",
+        "time": "19:00"
+    },
+    "live_8": {
+        "link": "#",
+        "img": "live_3.jpg",
+        "alt": "라이브",
+        "cate": "VOD",
+        "title": "[한화세일페스타] 전지점 최대 91% 라이브 특가",
+        "date": "09월 20일 (수)",
+        "time": "16:00",
+        "thumbImg": "live_3_thumb.png",
+        "thumbAlt": "라이브썸네일",
+        "thumbTitle": "한화세일페스타 기획전",
+        "thumbRatio": "",
+        "thumbPrice": ""
+    }
+}

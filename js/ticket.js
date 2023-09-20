@@ -16,7 +16,7 @@ window.addEventListener("load", function(){
     let ticketSwiper;
         ticketSwiper = new Swiper(".sw-ticket", {
         spaceBetween: 10,
-        slidesPerView: 3.5,
+        slidesPerView: 2.3,
         navigation: {
             nextEl: ".ticket .sw-next",
             prevEl: ".ticket .sw-prev",

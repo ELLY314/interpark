@@ -29,9 +29,24 @@
     <script src="js/shopping.js"></script>
     <script src="js/tour.js"></script>
     <script src="js/ticket.js"></script>
-
+    <script src="js/live.js"></script>
 </head>
 <body>
+    <div class="modal">
+        <div class="modal-box">
+            <div class="close-btn">X</div>
+            <h2 class="modal-title">안내사항</h2>
+            <div class="fixed-content">
+                <span>아래의 내용이 수정되었습니다.</span>
+                <p>수정된내용 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium, optio.</p>
+                <p>수정된내용 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium, optio.</p>
+                <p>수정된내용 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium, optio.</p>
+            </div>
+            <div class="notice">
+                <p>본 사이트는 <b>스터디 목적</b>으로 제작되었으며,<br/>리소스는 원저작자에게 있음을 알려드립니다.</p>
+            </div>
+        </div>
+    </div>
     <header class="header">
         <div class="inner">
             <div class="header-top">
@@ -220,7 +235,6 @@
                 <li><a href="#">국내숙소</a></li>
                 <li><a href="#">해외숙소</a></li>
             </ul>
-        
             <div class="slide-wrap">
                 <div class="sw-arrow sw-prev"></div>
                 <div class="sw-arrow sw-next"></div>
@@ -339,7 +353,39 @@
                                 </div>
                             </a>
                         </li>
-                        
+                        <li class="swiper-slide">
+                            <a href="#">
+                                <div class="imgbox">
+                                    <img src="img/ticket_musical_6.gif" alt="뮤지컬포스터">
+                                    <span class="rank">6</span>
+                                </div>
+                                <div class="textbox">
+                                    <h2>뮤지컬 ＇벤허＇</h2>
+                                    <h3>LG아트센터 서울 LG SIGNATURE 홀</h3>
+                                    <p>2023.09.02 - 2023.11.19</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="#">
+                                <div class="imgbox">
+                                    <img src="img/ticket_musical_7.gif" alt="뮤지컬포스터">
+                                    <span class="rank">7</span>
+                                </div>
+                                <div class="textbox">
+                                    <h2>뮤지컬 〈곤 투모로우〉</h2>
+                                    <h3>광림아트센터 BBCH홀</h3>
+                                    <p>2023.08.10 - 2023.10.22</p>
+                                    <span>좌석우위</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="swiper-slide slide-more">
+                            <a href="#">
+                                <img src="../img/arrow_more.svg" alt="더보기 화살표">
+                                <span>전체보기</span>
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -351,112 +397,28 @@
                         <li class="swiper-slide">
                             <a href="#">
                                 <div class="imgbox">
-                                    <img src="img/tour_soldout_1.webp" alt="">
+                                    <img src="img/ticket_concert_1.gif" alt="콘서트포스터">
                                     <span class="rank">1</span>
                                 </div>
                                 <div class="textbox">
-                                    <h2>뮤지컬 〈레베카〉 10주년 기념공연</h2>
-                                    <h3>블루스퀘어 신한카드홀</h3>
+                                    <h2>BOBBY 1ST CONCERT ROBERT</h2>
+                                    <h3>신한pLay 스퀘어 라이브홀</h3>
                                     <p>2023.08.19 - 2023.11.19</p>
-                                    <span>좌석우위</span>
+                                    <span class="ticket-red">단독판매</span>
                                 </div>
                             </a>
                         </li>
                         <li class="swiper-slide">
                             <a href="#">
                                 <div class="imgbox">
-                                    <img src="img/tour_soldout_1.webp" alt="">
-                                    <span class="rank">1</span>
+                                    <img src="img/ticket_concert_2.gif" alt="">
+                                    <span class="rank">2</span>
                                 </div>
                                 <div class="textbox">
-                                    <h2>뮤지컬 〈레베카〉 10주년 기념공연</h2>
-                                    <h3>블루스퀘어 신한카드홀</h3>
+                                    <h2>2023 이규형 첫번째 콘서트 〈Q:NIVERSE〉 Kkan ver.</h2>
+                                    <h3>coex 신한카드 artium</h3>
                                     <p>2023.08.19 - 2023.11.19</p>
-                                    <span>좌석우위</span>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="swiper-slide">
-                            <a href="#">
-                                <div class="imgbox">
-                                    <img src="img/tour_soldout_1.webp" alt="">
-                                    <span class="rank">1</span>
-                                </div>
-                                <div class="textbox">
-                                    <h2>뮤지컬 〈레베카〉 10주년 기념공연</h2>
-                                    <h3>블루스퀘어 신한카드홀</h3>
-                                    <p>2023.08.19 - 2023.11.19</p>
-                                    <span>좌석우위</span>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="swiper-slide">
-                            <a href="#">
-                                <div class="imgbox">
-                                    <img src="img/tour_soldout_1.webp" alt="">
-                                    <span class="rank">1</span>
-                                </div>
-                                <div class="textbox">
-                                    <h2>뮤지컬 〈레베카〉 10주년 기념공연</h2>
-                                    <h3>블루스퀘어 신한카드홀</h3>
-                                    <p>2023.08.19 - 2023.11.19</p>
-                                    <span>좌석우위</span>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="swiper-slide">
-                            <a href="#">
-                                <div class="imgbox">
-                                    <img src="img/tour_soldout_1.webp" alt="">
-                                    <span class="rank">1</span>
-                                </div>
-                                <div class="textbox">
-                                    <h2>뮤지컬 〈레베카〉 10주년 기념공연</h2>
-                                    <h3>블루스퀘어 신한카드홀</h3>
-                                    <p>2023.08.19 - 2023.11.19</p>
-                                    <span>좌석우위</span>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="swiper-slide">
-                            <a href="#">
-                                <div class="imgbox">
-                                    <img src="img/tour_soldout_1.webp" alt="">
-                                    <span class="rank">1</span>
-                                </div>
-                                <div class="textbox">
-                                    <h2>뮤지컬 〈레베카〉 10주년 기념공연</h2>
-                                    <h3>블루스퀘어 신한카드홀</h3>
-                                    <p>2023.08.19 - 2023.11.19</p>
-                                    <span>좌석우위</span>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="swiper-slide">
-                            <a href="#">
-                                <div class="imgbox">
-                                    <img src="img/tour_soldout_1.webp" alt="">
-                                    <span class="rank">1</span>
-                                </div>
-                                <div class="textbox">
-                                    <h2>뮤지컬 〈레베카〉 10주년 기념공연</h2>
-                                    <h3>블루스퀘어 신한카드홀</h3>
-                                    <p>2023.08.19 - 2023.11.19</p>
-                                    <span>좌석우위</span>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="swiper-slide">
-                            <a href="#">
-                                <div class="imgbox">
-                                    <img src="img/tour_soldout_1.webp" alt="">
-                                    <span class="rank">1</span>
-                                </div>
-                                <div class="textbox">
-                                    <h2>뮤지컬 〈레베카〉 10주년 기념공연</h2>
-                                    <h3>블루스퀘어 신한카드홀</h3>
-                                    <p>2023.08.19 - 2023.11.19</p>
-                                    <span>좌석우위</span>
+                                    <span class="ticket-red">단독판매</span>
                                 </div>
                             </a>
                         </li>
@@ -466,8 +428,57 @@
             <div class="section-bottom-btn">
                 <a href="#">티켓 홈 바로가기 <i></i></a>
             </div>
-            
         </div>
+    </section>
+    <section class="live">
+        <div class="inner">
+            <div class="section-title">
+                <h2><img src="img/title_live.svg" alt=""></h2>
+            </div>
+            <div class="slide-wrap">
+                <div class="sw-arrow sw-prev"></div>
+                <div class="sw-arrow sw-next"></div>
+                <div class="swiper sw-live">
+                    <ul class="swiper-wrapper">
+                        <!-- <li class="swiper-slide">
+                            <a href="#">
+                                <div class="imgbox">
+                                    <img src="img/live_1.jpg" alt="">
+                                </div>
+                                <div class="live-text">
+                                    <div class="top-text">
+                                        <span>방송예정</span>
+                                        <p>소담상회 x CARPET</p>
+                                    </div>
+                                    <div class="time-text">
+                                        <h2>09월 20일 (수)</h2>
+                                        <p>16:00</p>
+                                    </div>
+                                    <div class="item-info">
+                                        <div class="item-img">
+                                            <img src="img/live_1_thumb.jpg" alt="">
+                                        </div>
+                                        <div class="item-txt">
+                                            <p>안전벨트 2개( 안전벨트 1개 색상-랜덤) + 동결건조 간식 1봉</p>
+                                            <div class="item-price">
+                                                <span class="red">26%</span>
+                                                <span>35,000</span>원
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li> -->
+                    </ul>
+                </div>
+            </div>
+            <div class="section-bottom-btn">
+                <a href="#">인터파크 라이브 바로가기 <i></i></a>
+            </div>
+        </div>
+    </section>
+    <section class="book">
+        <div class="inner"></div>
     </section>
 </body>
 <!-- Google Tag Manager (noscript) -->

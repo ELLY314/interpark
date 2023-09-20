@@ -1,6 +1,6 @@
 /* css 기본세팅 */
 *{
-    margin: 0; padding: 0; box-sizing: border-box;
+    margin: 0; padding: 0; box-sizing: border-box; font:inherit
 }
 ul{
     list-style: none;
@@ -16,7 +16,7 @@ html{
 }
 body{
     font-family: 'Pretendard'; font-size: 1.6rem; font-weight: 400;
-    height: 3000px;
+    height: 4000px;
 }
 input{
     background-color: transparent; border: none;
@@ -26,6 +26,31 @@ input:focus{
 }
 button{
     border: none; background-color: transparent; cursor: pointer;
+}
+/* 포트폴리오 안내 모달창 */
+.modal{
+    position: fixed; width: 100%; height: 100%; z-index: 99; background-color: rgba(0, 0, 0, 0.5); display: flex; justify-content: center; align-items: center; display: none;
+}
+.modal-box{
+    width: 100%; background-color: #fff; max-width: 600px; padding: 50px 30px; border-radius: 20px; position: relative;
+}
+.modal .close-btn{
+    position: absolute; top: 20px; right: 20px; cursor: pointer; font-size: 25px;
+}
+.modal-title{
+    text-align: center; margin-bottom: 20px; font-size: 25px;
+}
+.modal .fixed-content{
+    padding: 10px; height: 100px; overflow-y: scroll; background-color: #e6e6e6; font-size: 15px; line-height: 1.5; margin-bottom: 20px;
+}
+.modal .fixed-content::-webkit-scrollbar{
+    width: 5px;
+}
+.modal .fixed-content::-webkit-scrollbar-thumb{
+    background-color: #000; width: 5px;
+}
+.modal .notice{
+    font-size: 20px; text-align: center; line-height: 1.5;
 }
 /* 공통클래스 */
 section{

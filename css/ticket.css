@@ -27,6 +27,9 @@
 .sw-ticket li .textbox span{
     padding: 0 8px; font-size: 11px; color: #4a95ff; border: 1px solid #4a95ff; display: inline-block; margin-top: 7px; line-height: 24px;
 }
+.sw-ticket li .textbox span.ticket-red{
+    border-color: rgba(239,62,67,.3); color: #ef3e43;
+}
 
 @media screen and (max-width: 1024px){}
 @media screen and (max-width: 768px){

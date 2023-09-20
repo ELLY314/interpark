@@ -1,0 +1,46 @@
+.live{}
+.live .section-title h2 img{height: 40px;}
+.live .slide-wrap ul li .imgbox{
+    padding-bottom: 135%; border-radius: 15px; overflow: hidden;
+}
+.live .slide-wrap ul li .imgbox::after{
+    content: ""; width: 100%; height: 100%; top: 0; left: 0; background: linear-gradient(0deg,rgba(34,34,34,.5),rgba(34,34,34,.5)),linear-gradient(180deg,rgba(0,0,0,.4) 18.65%,transparent 39.78%),linear-gradient(180deg,transparent 56.75%,rgba(0,0,0,.4) 87.59%); position: absolute; z-index: 11;
+}
+.live .live-text{
+    position: absolute; width: 100%; height: 100%; top: 0; left: 0; z-index: 111; color: #fff; display: flex; align-items: center; justify-content: center;
+}
+.live .live-text .top-text{
+    font-size: 20px; position: absolute; top: 20px; padding: 0 20px; width: 100%;
+}
+.live .live-text .top-text span{
+    font-size: 13px; padding: 0 12px; margin-bottom: 8px; background-color: rgba(0,0,0,.5); line-height: 32px; border-radius: 30px; display: inline-block;
+}
+.live .live-text .top-text p{}
+.live .live-text .time-text{
+    text-align: center; font-size: 28px;
+}
+.live .live-text .time-text p{
+    font-size: 50px; margin-top: 10px; font-weight: 700;
+}
+.live .live-text .item-info{
+    padding: 0 20px; display: flex; position: absolute; bottom: 20px; left: 0; 
+    width: 100%; gap: 10px; align-items: flex-start;
+
+}
+.live .live-text .item-img{
+    width: 64px; height: 64px; position: relative; border-radius: 6px; overflow: hidden;
+}
+.live .live-text .item-img img{
+    position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+}
+.live .live-text .item-txt{
+    width: calc(100% - 74px); margin: 8px 0;
+}
+.live .live-text .item-txt > p{
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-size: 15px; margin-bottom: 5px;
+}
+.live .live-text .item-txt .item-price{
+    
+}
+.live .live-text .item-txt .item-price span{font-weight: 700; font-size: 20px;}
+.live .live-text .item-txt .item-price span.red{color: #ef3e43;}

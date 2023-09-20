@@ -27,7 +27,7 @@ window.addEventListener("load", function(){
         let swTodaypickWrapper = document.querySelector('.sw-todaypick .swiper-wrapper');
         swTodaypickWrapper.innerHTML = swTodaypickHtml;
 
-        var swiper = new Swiper(".sw-todaypick", {
+        var todaySwiper = new Swiper(".sw-todaypick", {
             slidesPerView: 1,
             spaceBetween: 25,
             loop:true,
