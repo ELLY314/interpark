@@ -6,6 +6,15 @@ window.addEventListener("load", function(){
     let data;
     function parseTour(_data){
         data=_data;
+        let tourCate = document.querySelector(".tour .slide-tabs");
+        let tabHtml = ``;
+        let dataArr = _data.tour;
+        for (let i = 0; i < dataArr.length; i++){
+            let html = `<li><a href="#">${dataArr[i].catename}</a></li>`
+            tabHtml += html;
+        }
+        tourCate.innerHTML = tabHtml;
+        
         let tabs = document.querySelectorAll(".tour .slide-tabs li")
         tabs.forEach(function(item, index){
             item.addEventListener("click", function(event){
@@ -48,8 +57,8 @@ window.addEventListener("load", function(){
             tourSwiper.destroy();
         }
         tourSwiper = new Swiper(".sw-tour", {
-            spaceBetween: 10,
-            slidesPerView: 1.5,
+            spaceBetween: 15,
+            slidesPerView: 2.3,
             grid:{
                 rows:2,
                 fill:'row',
@@ -59,10 +68,10 @@ window.addEventListener("load", function(){
                 prevEl: ".tour .sw-prev",
             },
             breakpoints: {
-                480: {
-                    slidesPerView: 2.3,
+                768: {
+                    slidesPerView: 2,
                     slidesPerGroup:2,
-                    spaceBetween: 15,
+                    spaceBetween: 20,
                     grid: {
                         rows: 1,
                     },

@@ -3,17 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Google Tag Manager -->
-    <script>
-        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-        })(window,document,'script','dataLayer','GTM-W6SGPKQK');
-    </script>
-    <!-- End Google Tag Manager -->
-    <!-- 네이버 검색 노출 -->
-    <meta name="naver-site-verification" content="86082cec77fafe3da97dca33aea163a273476618" />
     <title>Document</title>
     <!-- 초기화 -->
     <script src="js/html5shiv.js"></script>
@@ -30,6 +19,7 @@
     <script src="js/tour.js"></script>
     <script src="js/ticket.js"></script>
     <script src="js/live.js"></script>
+    <script src="js/book.js"></script>
 </head>
 <body>
     <div class="modal">
@@ -230,10 +220,11 @@
                 <p>해외여행은 인터파크다</p>
             </div>
             <ul class="slide-tabs">
-                <li class="active"><a href="#">망설이면품절</a></li>
+                <!-- json연동 -->
+                <!-- <li class="active"><a href="#">망설이면품절</a></li>
                 <li><a href="#">패키지</a></li>
                 <li><a href="#">국내숙소</a></li>
-                <li><a href="#">해외숙소</a></li>
+                <li><a href="#">해외숙소</a></li> -->
             </ul>
             <div class="slide-wrap">
                 <div class="sw-arrow sw-prev"></div>
@@ -478,12 +469,28 @@
         </div>
     </section>
     <section class="book">
-        <div class="inner"></div>
+        <div class="inner">
+            <div class="section-title">
+                <h2>오늘의 도서</h2>
+                <p>지금 읽기 딱 좋은 책, 놓치지 마세요!</p>
+            </div>
+            <ul class="slide-tabs">
+                <!-- json연동 -->
+                <!-- <li class="active"><a href="#">MD’s Pick</a></li>
+                <li><a href="#">베스트셀러</a></li>
+                <li><a href="#">신간추천</a></li>
+                <li><a href="#">특가할인</a></li> -->
+            </ul>
+            <div class="slide-wrap">
+                <div class="sw-arrow sw-prev"></div>
+                <div class="sw-arrow sw-next"></div>
+                <div class="swiper sw-book">
+                    <ul class="swiper-wrapper">
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
     </section>
 </body>
-<!-- Google Tag Manager (noscript) -->
-<noscript>
-    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W6SGPKQK" height="0" width="0" style="display:none;visibility:hidden"></iframe>
-</noscript>
-<!-- End Google Tag Manager (noscript) -->
 </html>

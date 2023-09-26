@@ -70,8 +70,8 @@ window.addEventListener("load", function(){
             shoppingSwiper.destroy();
         }
         shoppingSwiper = new Swiper(".sw-shopping", {
-            spaceBetween: 10,
             slidesPerView: 2.3,
+            spaceBetween: 15,
             grid:{
                 rows:2,
                 fill:'row',
@@ -84,7 +84,7 @@ window.addEventListener("load", function(){
                 768: {
                     slidesPerView: 3,
                     slidesPerGroup:3,
-                    spaceBetween: 30,
+                    spaceBetween: 20,
                     grid: {
                         rows: 1,
                     },

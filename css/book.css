@@ -1,0 +1,19 @@
+.book{}
+.book .sw-book{}
+.book .sw-book ul{}
+.book .slide-wrap ul li{}
+.book .slide-wrap ul li a{}
+.book .slide-wrap ul li .imgbox{
+    padding-bottom: 140%; border: 1px solid rgba(0,0,0,.06); margin-bottom: 10px;
+}
+.book .sw-book ul li .imgbox img{}
+.book .slide-wrap ul li .txtbox{
+    text-align: center;
+}
+.book .slide-wrap ul li .txtbox p.title{
+    text-overflow: ellipsis; white-space: nowrap; overflow: hidden; margin-bottom: 5px;
+}
+.book .slide-wrap ul li .txtbox p.price{}
+.book .slide-wrap ul li .txtbox p.price span{
+    font-size: 20px; font-weight: 700; 
+}

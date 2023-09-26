@@ -24,7 +24,7 @@
     font-size: 16px;
 }
 .sw-tour li .textbox .price b{
-    font-size: 20px;
+    font-size: 20px; font-weight: 700;
 }
 
 @media screen and (max-width: 1024px){}

@@ -1,0 +1,115 @@
+{
+    "book" : [
+        {
+            "catename" : "MD's Pick",
+            "list":[
+                {
+                    "link":"javascript:;",
+                    "img":"book_mdpick_1.jpg",
+                    "alt":"MD's Pick 책",
+                    "title":"오늘도 나아가는 중입니다",
+                    "price":"15,120"
+                },
+                {
+                    "link":"javascript:;",
+                    "img":"book_mdpick_2.jpg",
+                    "alt":"MD's Pick 책",
+                    "title":"흔한남매 14",
+                    "price":"13,050"
+                },
+                {
+                    "link":"javascript:;",
+                    "img":"book_mdpick_3.jpg",
+                    "alt":"MD's Pick 책",
+                    "title":"생각이 너무 많은 어른들을 위한 심리학",
+                    "price":"16,020"
+                },
+                {
+                    "link":"javascript:;",
+                    "img":"book_mdpick_4.jpg",
+                    "alt":"MD's Pick 책",
+                    "title":"세계지도를 펼치면 돈의 흐름이 보인다",
+                    "price":"17,820"
+                },
+                {
+                    "link":"javascript:;",
+                    "img":"book_mdpick_5.jpg",
+                    "alt":"MD's Pick 책",
+                    "title":"엔시티127(NCT127) - FACT CHECK [STORAGE Ver.]",
+                    "price":"18,300"
+                },
+                {
+                    "link":"javascript:;",
+                    "img":"book_mdpick_6.jpg",
+                    "alt":"MD's Pick 책",
+                    "title":"모비딕 블루 에디션 북퍼퓸 30ml",
+                    "price":"9,900"
+                },
+                {
+                    "link":"javascript:;",
+                    "img":"book_mdpick_7.jpg",
+                    "alt":"MD's Pick 책",
+                    "title":"도시와 그 불확실한 벽",
+                    "price":"17,550"
+                },
+                {
+                    "link":"javascript:;",
+                    "img":"book_mdpick_8.jpg",
+                    "alt":"MD's Pick 책",
+                    "title":"보그 10월호 2022년 표지 BTS 뷔 C형 Vogue Korea",
+                    "price":"12,000"
+                },
+                {
+                    "link":"javascript:;",
+                    "img":"book_mdpick_9.jpg",
+                    "alt":"MD's Pick 책",
+                    "title":"말리의 일곱 개의 달",
+                    "price":"16,920"
+                },
+                {
+                    "link":"javascript:;",
+                    "img":"book_mdpick_10.jpg",
+                    "alt":"MD's Pick 책",
+                    "title":"오늘도 나아가는 중입니다",
+                    "price":"16,920"
+                }
+            ]
+        },
+        {
+            "catename" : "베스트셀러",
+            "list":[
+                {
+                    "link":"javascript:;",
+                    "img":"book_mdpick_10.jpg",
+                    "alt":"베스트셀러 책",
+                    "title":"오늘도 나아가는 중입니다",
+                    "price":"16,920"
+                }
+            ]
+        },
+        {
+            "catename" : "신간추천",
+            "list":[
+                {
+                    "link":"javascript:;",
+                    "img":"book_mdpick_10.jpg",
+                    "alt":"신간추천 책",
+                    "title":"오늘도 나아가는 중입니다",
+                    "price":"16,920"
+                }
+            ]
+        },
+        {
+            "catename" : "특가할인",
+            "list":[
+                {
+                    "link":"javascript:;",
+                    "img":"book_mdpick_10.jpg",
+                    "alt":"특가할인 책",
+                    "title":"오늘도 나아가는 중입니다",
+                    "price":"16,920"
+                }
+            ]
+        }
+    ]
+}

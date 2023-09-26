@@ -29,7 +29,7 @@ window.addEventListener("load", function(){
                                 <h2>${obj.date}</h2>
                                 <p>${obj.time}</p>
                             </div>
-                            <div class="item-info">
+                            <div class="item-info" >
                                 <div class="item-img" ${obj.thumbImg ? "style='display:block'" : "style='display:none'"}>
                                     <img src="img/${obj.thumbImg}" alt="${obj.thumbAlt}">
                                 </div>
@@ -51,18 +51,17 @@ window.addEventListener("load", function(){
         swLiveWrapper.innerHTML = swLiveHtml;
 
         let liveSwiper = new Swiper(".sw-live", {
+            slidesPerView: 2.3,
+            spaceBetween: 15,
             navigation: {
                 nextEl: ".live .sw-next",
                 prevEl: ".live .sw-prev",
             },
             breakpoints: {
-                480: {
-                    slidesPerView: 2.3,
+                768: {
+                    slidesPerView: 3,
                     slidesPerGroup:2,
-                    spaceBetween: 15,
-                    grid: {
-                        rows: 1,
-                    },
+                    spaceBetween: 20,
                 },
                 1024: {
                     slidesPerView: 4,
