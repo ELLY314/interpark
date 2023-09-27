@@ -80,10 +80,83 @@
             "list":[
                 {
                     "link":"javascript:;",
-                    "img":"book_mdpick_10.jpg",
+                    "img":"book_best_1.jpg",
+                    "alt":"베스트셀러 책",
+                    "title":"퓨처 셀프",
+                    "writer":"벤저민 하디/최은아 역",
+                    "price":"17,820"
+                },
+                {
+                    "link":"javascript:;",
+                    "img":"book_best_2.jpg",
+                    "alt":"베스트셀러 책",
+                    "title":"트렌드 코리아 2024",
+                    "writer":"김난도, 추예린, 전다현, 전미영, 최지혜",
+                    "price":"17,100"
+                },
+                {
+                    "link":"javascript:;",
+                    "img":"book_best_3.jpg",
+                    "alt":"베스트셀러 책",
+                    "title":"세이노의 가르침",
+                    "writer":"세이노",
+                    "price":"17,820"
+                },
+                {
+                    "link":"javascript:;",
+                    "img":"book_best_4.jpg",
+                    "alt":"베스트셀러 책",
+                    "title":"도시와 그 불확실한 벽",
+                    "writer":"무라카미 하루키(村上春樹)",
+                    "price":"17,550"
+                },
+                {
+                    "link":"javascript:;",
+                    "img":"book_best_5.jpg",
                     "alt":"베스트셀러 책",
                     "title":"오늘도 나아가는 중입니다",
+                    "writer":"조민",
+                    "price":"15,120"
+                },
+                {
+                    "link":"javascript:;",
+                    "img":"book_best_6.jpg",
+                    "alt":"베스트셀러 책",
+                    "title":"5천 년 역사가 단숨에 이해되는 최소한의 한국사",
+                    "writer":"최태성",
+                    "price":"16,200"
+                },
+                {
+                    "link":"javascript:;",
+                    "img":"book_best_7.jpg",
+                    "alt":"베스트셀러 책",
+                    "title":"도둑맞은 집중력",
+                    "writer":"요한 하리/김하현 역",
                     "price":"16,920"
+                },
+                {
+                    "link":"javascript:;",
+                    "img":"book_best_8.jpg",
+                    "alt":"베스트셀러 책",
+                    "title":"디케의 눈물",
+                    "writer":"조국",
+                    "price":"16,920"
+                },
+                {
+                    "link":"javascript:;",
+                    "img":"book_best_9.jpg",
+                    "alt":"베스트셀러 책",
+                    "title":"원씽(The One Thing)(리커버 특별판)",
+                    "writer":"게리 켈러, 제이 파파산/구세희 역",
+                    "price":"12,600"
+                },
+                {
+                    "link":"javascript:;",
+                    "img":"book_best_10.jpg",
+                    "alt":"베스트셀러 책",
+                    "title":"생각이 너무 많은 어른들을 위한 심리학(10만 부 기념 스페셜 에디션)",
+                    "writer":"김혜남",
+                    "price":"16,020"
                 }
             ]
         },
@@ -92,10 +165,73 @@
             "list":[
                 {
                     "link":"javascript:;",
-                    "img":"book_mdpick_10.jpg",
+                    "img":"book_new_1.jpg",
                     "alt":"신간추천 책",
-                    "title":"오늘도 나아가는 중입니다",
-                    "price":"16,920"
+                    "title":"트렌드 코리아 2024",
+                    "subtext":"2024 대한민국 소비트렌드 전망"
+                },
+                {
+                    "link":"javascript:;",
+                    "img":"book_new_2.jpg",
+                    "alt":"신간추천 책",
+                    "title":"네 안에 잠든 거인을 깨워라(30주년 기념판)",
+                    "subtext":"진정한 성공과 탁월함을 열망하는 이들에게 바친다!"
+                },
+                {
+                    "link":"javascript:;",
+                    "img":"book_new_3.jpg",
+                    "alt":"신간추천 책",
+                    "title":"생각이 너무 많은 어른들을 위한 심리학(10만 부 기념 스페셜 에디션)",
+                    "subtext":"《만일 내가 인생을 다시 산다면》의 작가 김혜남이 생각이 많아 자꾸만 흔들리는 어른들에게 해 주고 싶은 말들을 담은 책."
+                },
+                {
+                    "link":"javascript:;",
+                    "img":"book_new_4.jpg",
+                    "alt":"신간추천 책",
+                    "title":"푸바오, 매일매일 행복해",
+                    "subtext":"베스트셀러 《아기 판다 푸바오》의 후속작. 장난꾸러기 푸바오의 행복한 일상을 담은 포토 에세이. "
+                },
+                {
+                    "link":"javascript:;",
+                    "img":"book_new_5.jpg",
+                    "alt":"신간추천 책",
+                    "title":"페어리테일 1-2 세트",
+                    "subtext":"스티븐 킹 장편소설. 평범한 고등학생 ‘찰리 리드’가 반려견을 살리기 위해 우물 속 동화의 세계로 뛰어들며 겪는 모험담."
+                },
+                {
+                    "link":"javascript:;",
+                    "img":"book_new_6.jpg",
+                    "alt":"신간추천 책",
+                    "title":"여행자를 위한 교토 답사기",
+                    "subtext":"『나의 문화유산답사기 일본편』을 모본 삼아 유홍준 교수가 가려뽑은 교토의 명소들을 한권에 담은 책. "
+                },
+                {
+                    "link":"javascript:;",
+                    "img":"book_new_7.jpg",
+                    "alt":"신간추천 책",
+                    "title":"완벽한 자유와 부를 만드는 인생투자",
+                    "subtext":"성공한 투자가 우석의 인생철학과 투자 원칙을 집대성한 책. 투자에 성공하려면 전략적으로 생각하고 천천히 움직여라!"
+                },
+                {
+                    "link":"javascript:;",
+                    "img":"book_new_1.jpg",
+                    "alt":"신간추천 책",
+                    "title":"올리브나무 아래",
+                    "subtext":"박노해 시인이 만난 천 년의 올리브나무. 그 오래고도 한결같은 사랑, 신성한 빛과 강인한 힘을 담은 사진에세이."
+                },
+                {
+                    "link":"javascript:;",
+                    "img":"book_new_9.jpg",
+                    "alt":"신간추천 책",
+                    "title":"네가 있는 요일",
+                    "subtext":"『스노볼』의 작가 박소영의 두 번째 장편소설. 일곱 사람이 하나의 몸을 공유하는 미래, 기억을 되찾으려는 ‘현울림’의 여정."
+                },
+                {
+                    "link":"javascript:;",
+                    "img":"book_new_10.jpg",
+                    "alt":"신간추천 책",
+                    "title":"나눈 그냥 내가 좋아!",
+                    "subtext":"카카오톡 이모티콘으로 사랑받는 혀?은앙꼬 첫 번째 책. 앙꼬와 친구들의 일상툰을 통해 평범함 속에서 작은 행복을 찾는다."
                 }
             ]
         },
@@ -104,10 +240,83 @@
             "list":[
                 {
                     "link":"javascript:;",
-                    "img":"book_mdpick_10.jpg",
+                    "img":"book_sale_1.jpg",
                     "alt":"특가할인 책",
-                    "title":"오늘도 나아가는 중입니다",
-                    "price":"16,920"
+                    "title":"동물 오케스트라의 베토벤 사운드북(보드북)",
+                    "price":"12,350",
+                    "ratio":"35"
+                },
+                {
+                    "link":"javascript:;",
+                    "img":"book_sale_2.jpg",
+                    "alt":"특가할인 책",
+                    "title":"우리 아기 오감발달 동물원 사운드북",
+                    "price":"12,350",
+                    "ratio":"35"
+                },
+                {
+                    "link":"javascript:;",
+                    "img":"book_sale_3.jpg",
+                    "alt":"특가할인 책",
+                    "title":"Usborne 동물 오케스트라",
+                    "price":"8,970",
+                    "ratio":"35"
+                },
+                {
+                    "link":"javascript:;",
+                    "img":"book_sale_4.jpg",
+                    "alt":"특가할인 책",
+                    "title":"동물 농장 사운드북",
+                    "price":"12,350",
+                    "ratio":"35"
+                },
+                {
+                    "link":"javascript:;",
+                    "img":"book_sale_5.jpg",
+                    "alt":"특가할인 책",
+                    "title":"부릉부릉! 손가락 사운드북",
+                    "price":"12,870",
+                    "ratio":"35"
+                },
+                {
+                    "link":"javascript:;",
+                    "img":"book_sale_6.jpg",
+                    "alt":"특가할인 책",
+                    "title":"Usborne 동물 오케스트라",
+                    "price":"8,970",
+                    "ratio":"35"
+                },
+                {
+                    "link":"javascript:;",
+                    "img":"book_sale_7.jpg",
+                    "alt":"특가할인 책",
+                    "title":"동물 오케스트라의 모차르트 사운드북",
+                    "price":"12,350",
+                    "ratio":"35"
+                },
+                {
+                    "link":"javascript:;",
+                    "img":"book_sale_8.jpg",
+                    "alt":"특가할인 책",
+                    "title":"동물 오케스트라의 차이콥스키 사운드북",
+                    "price":"12,350",
+                    "ratio":"35"
+                },
+                {
+                    "link":"javascript:;",
+                    "img":"book_sale_9.jpg",
+                    "alt":"특가할인 책",
+                    "title":"우리 아기 오감발달 동물원 사운드북",
+                    "price":"11,700",
+                    "ratio":"35"
+                },
+                {
+                    "link":"javascript:;",
+                    "img":"book_sale_10.jpg",
+                    "alt":"특가할인 책",
+                    "title":"동물 농장 사운드북",
+                    "price":"12,350",
+                    "ratio":"35"
                 }
             ]
         }

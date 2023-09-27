@@ -13,7 +13,7 @@
     font-size: 20px; position: absolute; top: 20px; padding: 0 20px; width: 100%;
 }
 .live .live-text .top-text span{
-    font-size: 13px; padding: 0 12px; margin-bottom: 8px; background-color: rgba(0,0,0,.5); line-height: 32px; border-radius: 30px; display: inline-block;
+    font-size: 13px; padding: 0 12px; margin-bottom: 8px; background-color: rgba(0,0,0,.5); line-height: 2.5; border-radius: 30px; display: inline-block;
 }
 .live .live-text .top-text p{}
 .live .live-text .time-text{
@@ -44,3 +44,31 @@
 }
 .live .live-text .item-txt .item-price span{font-weight: 700; font-size: 20px;}
 .live .live-text .item-txt .item-price span.red{color: #ef3e43;}
+@media screen and (max-width: 1200px){
+    .live .live-text .top-text{
+        font-size: 16px;
+    }
+    .live .live-text .time-text{
+        font-size: 20px;
+    }
+    .live .live-text .time-text p{
+        font-size: 35px;
+    }
+}
+@media screen and (max-width: 1024px){
+    
+}
+@media screen and (max-width: 768px){
+    .live .live-text .top-text{
+        font-size: 14px;
+    }
+    .live .live-text .top-text span{
+        font-size: 10px;
+    }
+    .live .live-text .time-text{
+        font-size: 18px;
+    }
+    .live .live-text .time-text p{
+        font-size: 32px;
+    }
+}

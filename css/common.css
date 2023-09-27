@@ -16,7 +16,6 @@ html{
 }
 body{
     font-family: 'Pretendard'; font-size: 1.6rem; font-weight: 400;
-    height: 5000px;
 }
 input{
     background-color: transparent; border: none;

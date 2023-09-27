@@ -51,7 +51,18 @@ window.addEventListener("load", function(){
                         </div>
                         <div class="txtbox">
                             <p class="title">${obj.title}</p>
-                            <p class="price"><span>${obj.price}</span>원</p>
+                            <p class="writer" 
+                                ${obj.writer ? "style='display:block'" : "style='display:none'"}>
+                                ${obj.writer}
+                            </p>
+                            <p class="subtext" 
+                                ${obj.subtext ? "style='display:-webkit-box'" : "style='display:none'"}>
+                                ${obj.subtext}
+                            </p>
+                            <p class="price" ${obj.price ? "style='display:block'" : "style='display:none'"}>
+                            <span class = "ratio" ${obj.ratio ? "style='display:inline-block'" : "style='display:none'"}><em>${obj.ratio}</em>%</span>
+                            <span>${obj.price}</span>원
+                            </p>
                         </div>
                     </a>
                 </li>
@@ -69,7 +80,23 @@ window.addEventListener("load", function(){
                 nextEl: ".book .sw-next",
                 prevEl: ".book .sw-prev",
             },
+            slidesPerView: 3,
+            slidesPerGroup: 3,
+            spaceBetween: 15,
+            grid: {
+                rows: 4,
+                fill:'row',
+            },
             breakpoints: {
+                
+                768: {
+                    slidesPerView: 3,
+                    slidesPerGroup: 3,
+                    spaceBetween: 20,
+                    grid: {
+                        rows: 1,
+                    },
+                },
                 1024: {
                     slidesPerView: 5,
                     slidesPerGroup: 5,
