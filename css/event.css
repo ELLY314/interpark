@@ -1,0 +1,12 @@
+.event{}
+.event .slide-wrap{}
+.event .slide-wrap ul{}
+.event .slide-wrap ul li{
+    border: 1px solid rgba(0, 0, 0, 0.1); border-radius: 12px; overflow: hidden;
+}
+.event .slide-wrap ul li .imgbox{
+    background: rgba(0, 0, 0, 0.03); padding-bottom: 117%; 
+}
+.event .slide-wrap ul li .imgbox img{
+    mix-blend-mode: multiply;
+}

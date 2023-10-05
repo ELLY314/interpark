@@ -9,7 +9,7 @@
 }
 .sw-tour li .imgbox img{}
 .sw-tour li .textbox{
-    padding: 23px 20px 18px; position: relative; font-size: 15px;
+    padding: 23px 20px 18px; position: relative; 
 }
 .sw-tour li .textbox .point{
     position: absolute; top: -16px; left: 20px; padding: 0 12px; background-color: #1769ff; line-height: 32px; border-radius: 4px; color: #fff; font-size: 14px;

@@ -1,0 +1,17 @@
+.footer{}
+.footer .footer-menu{
+    border-top: 0.1rem solid rgba(0,0,0,.1); border-bottom: 0.1rem solid rgba(0,0,0,.1); font-size: 13px;
+}
+.footer .footer-menu ul{
+    height: 50px; display: flex; align-items: center;
+}
+.footer .footer-menu ul li{
+    padding: 0 30px;
+}
+.footer .footer-menu ul li:first-child{
+    padding-left: 0;
+}
+.footer .footer-menu ul li:last-child{
+    padding-right: 0;
+}
+.footer .footer-menu ul li a{}

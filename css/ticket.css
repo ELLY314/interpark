@@ -19,7 +19,7 @@
     font-size: 18px; font-weight: 700; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
 }
 .sw-ticket li .textbox h3{
-    font-size: 15px; color: #666; margin: 7px 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+    color: #666; margin: 7px 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
 }
 .sw-ticket li .textbox p{
     font-size: 14px; color: #999;

@@ -8,7 +8,7 @@
 }
 .book .sw-book ul li .imgbox img{}
 .book .slide-wrap ul li .txtbox{
-    text-align: center; font-size: 15px;
+    text-align: center; 
 }
 .book .slide-wrap ul li .txtbox p.title{
     margin-bottom: 5px; display: -webkit-box; overflow: hidden; word-break: break-all; text-overflow: ellipsis; -webkit-line-clamp: 2; -webkit-box-orient: vertical;
