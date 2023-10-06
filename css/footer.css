@@ -1,17 +1,37 @@
-.footer{}
+.footer{
+    height: 500px;
+}
 .footer .footer-menu{
     border-top: 0.1rem solid rgba(0,0,0,.1); border-bottom: 0.1rem solid rgba(0,0,0,.1); font-size: 13px;
 }
-.footer .footer-menu ul{
-    height: 50px; display: flex; align-items: center;
+.footer .footer-menu > ul{
+    display: flex; justify-content: center; flex-wrap: wrap;
 }
-.footer .footer-menu ul li{
-    padding: 0 30px;
+.footer .footer-menu > ul > li{
+    padding: 0 2.1%; position: relative; height: 50px; display: inline-flex; align-items: center;
 }
-.footer .footer-menu ul li:first-child{
-    padding-left: 0;
+.footer .footer-menu > ul > li::after,
+.footer .footer-menu > ul > li::before{
+    content: ""; width: 1px; height: 12px; background-color: rgba(0,0,0,.3); position: absolute; top: 50%; transform: translateY(-50%); right: 0;
 }
-.footer .footer-menu ul li:last-child{
-    padding-right: 0;
+.footer .footer-menu > ul > li::before{
+    right: auto; left: -1px;
 }
-.footer .footer-menu ul li a{}
+.footer .footer-menu > ul > li > a{
+    position: relative; white-space: nowrap;
+}
+.footer .footer-menu ul li.footer-menu-arrow > a::after{
+    content: ""; background: url(../img/arrow_down.svg) no-repeat center / cover; width: 8px; height: 6px; display: inline-block; margin-left: 5px;     vertical-align: middle;
+}
+.footer .footer-menu > ul > li:hover .footer-smenu{display: block;}
+.footer .footer-smenu{
+    position: absolute; top: 80%; right: 10px; background: #fff; box-shadow: 0 0 1.6rem rgba(0,0,0,.2); border-radius: 0.8rem; padding: 16px; display: none; line-height: 1.5; white-space: nowrap;
+}
+@media screen and (max-width: 1400px){
+    .footer .footer-menu > ul{
+        justify-content: center; text-align: center; padding: 10px 20px;
+    }
+    .footer .footer-menu > ul > li{
+        height: auto; line-height: 3;
+    }
+}
